@@ -1,59 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="style.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Social Network Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/bcdb4b8e52.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
-<header>
-    <div class="background_image"></div>
-    <h1>Page Name</h1>
-    <h2>Website</h2>
-    <nav>
-        <ul id="nav-list">
-
-            <li class="nav-link">
-                <a href="/timeline.html">Timeline</a>
-            </li>
-
-            <li class="nav-link">
-                <a href="/about.html">About</a>
-            </li>
-
-            <li class="nav-link">
-                <a href="/welcome.html">Welcome</a>
-            </li>
-
-            <li class="nav-link">
-                <a href="/fwb.html">FWB</a>
-            </li>
-            <li class="nav-link">
-                <a href="/more.html">More</a>
-            </li>
-    </nav>
-    <nav>
-        <ul id="nav-connect">
-
-            <li class="nav-link">
-                <a href="/like.html">Like</a>
-            </li>
-
-            <li class="nav-link">
-                <a href="/+follow.html">+Follow</a>
-            </li>
-
-            <li class="nav-link">
-                <a href="/message.html">Message</a>
-            </li>
-            
-            <li class="nav-link">
-                <a href="/...">...</a>
-            </li>
-        </ul>
-    </nav>
-</header>
 <body>
-    
+    <header>
+        <div class="background_image"></div>
+        <h1>Your page</h1>
+        <h2>Website</h2>
+        <div class="profile_photo"></div>
+        <nav>
+            <ul id="nav_list">
+
+                <li class="nav-link1">
+                    <a href="/timeline.html">Timeline</a>
+                </li>
+
+                <li class="nav-link2">
+                    <a href="/about.html">About</a>
+                </li>
+
+                <li class="nav-link3">
+                    <a href="/welcome.html">Welcome</a>
+                </li>
+
+                <li class="nav-link4">
+                    <a href="/fwb.html">FWB</a>
+                </li>
+
+                <li class="nav-link5">
+                    <a href="/more.html">More &#9662</a>
+                </li>
+
+            </ul>
+        </nav>
+        <nav>
+            <ul id="nav_connect">
+
+                <button class="Like styled"
+                    type="button">
+                    <i class="fa fa-thumbs-up"></i> Like
+                </button>
+
+                <button class="Follow styled"
+                    type="button">
+                    + Follow
+                </button>
+
+                <button class="Message styled"
+                    type="button">
+                    <i class='fas fa-comment-alt'></i> Message
+                </button>
+
+                <button class="... styled"
+                    type="button">
+                    . . .
+                </button>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="columnleft"></div>
+        <div id="columnright"></div>
+    </main>
 </body>
 </html>
