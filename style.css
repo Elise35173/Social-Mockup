@@ -80,6 +80,7 @@ a {
     font-weight: lighter;
     color: darkslategray;
     left: 175px;
+    margin: 0;
 }
 
 li {
@@ -93,12 +94,37 @@ button {
     font-size: 16px;
     border-radius: 2px;
     background-color: whitesmoke;
-    border: none;
     padding: 5px 5px;
+    border: none;
 }
 
 button:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#Like_styled {
+    font-size: 16px;
+    color: darkslategrey;
+    margin: 0 8px;
+}
+
+#Follow_styled {
+    font-size: 16px;
+    color: darkgrey;
+    margin: 0;
+}
+
+#Message_styled {
+    font-size: 16px;
+    color: darkslategrey;
+    margin: 0;
+}
+
+#Ellipses_styled {
+    font-size: 16px;
+    color: darkslategrey;
+    margin: 0;
+    text-align: center;
 }
 
 .nav-link1 a {
@@ -108,7 +134,7 @@ button:hover {
 
 .nav-link2 a {
     border-right: 1px solid lightgrey;
-    padding: 8px 20px;
+    padding: 8px 10px;
 }
 
 .nav-link3 a {
@@ -120,7 +146,9 @@ button:hover {
     border-right: 1px solid lightgrey;
     padding: 8px 20px;
 }
+
 main {
+    font-family: sans-serif;
     position: relative;
     top: -325px;
     width: 865px;
@@ -132,40 +160,160 @@ main {
     width: 100%;
 }
 
-#columnleft {
+.card {
+    background-color: whitesmoke;
+    margin: 10px 0;
+}
+
+
+h3 {
+    font-size: 18px;
+    margin: 0px;
+}
+
+h4 {
+    font-size: 16px;
+    color: rgb(80, 96, 168);
+    margin: 0;
+    padding: 10px;
+}
+
+h5 {
+    font-size: 14px;
+    margin: 0;
+    background-color: rgb(231, 229, 229);
+    color: lightslategray;
+    padding: 10px;
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: lighter;
+    color: rgb(80, 96, 168);
+    padding-top: 5px;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.about_web {
+    padding: 10px;
+    margin-top: 15px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+
+.fas {
+    font-size: 14px;
+    color: darkslategrey;
+}
+
+#column_left {
     margin-left: 8px;
     margin-right: 5px;
     width: 328px;
     float: left;
 }
 
-#columnright {
-    margin-left: 5px;
-    width: 512px;
-    float: left;
+.card p {
+    padding: 10px;
 }
 
-.card {
-    background-color: whitesmoke;
+.app_caption_group {
+    margin: 0;
 }
 
-h5 {
-    background-color: rgb(231, 229, 229);
-    color: lightslategray;
-    font-family: sans-serif;
-}
-
-.fakeapp {
+.fake_app {
+    position: relative;
     height: 75px;
     width: 125px;
     background-color: rgb(80, 96, 168);
     margin: 5px;
 }
 
-.fakeimg {
-    height: 95px;
-    width: 95px;
+.image_caption {
+    position: relative;
+    left: 150px;
+    top: -50px;
+}
+
+.fake_photo_posts {
+    margin: 5px;
+}
+
+.fake_img {
+    height: 103px;
+    width: 103px;
     background-color: rgb(80, 96, 168);
-    margin: 2.5px;
     display: inline-block;
+}
+
+#column_right {
+    margin-left: 5px;
+    width: 512px;
+    float: left;
+}
+
+.date {
+    color: lightslategrey;
+}
+
+.fake_connect {
+    color: rgb(80, 96, 168);
+    text-align: center;
+    background-color: rgb(231, 229, 229);
+    padding: 5px;
+}
+
+.post_caption_group {
+    margin: 0px;
+    padding: 5px;
+}
+
+.fakeposts {
+    margin: 0px;
+}
+
+.fake_profile_photo {
+    margin: 15px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(80, 96, 168);
+    display: inline-block;
+}
+
+.fake_cover_photo {
+    margin: 3px 3px;
+    height: 250px;
+    width: 505px;
+    background-color: rgb(80, 96, 168);
+}
+
+.fake_party {
+    margin: 0;
+}
+
+.fake_event_photo {
+    margin: 0px 15px;
+    height: 250px;
+    width: 482px;
+    background-color: rgb(80, 96, 168);
+    display: inline-block;
+}
+
+.event_info {
+    top: -10px;
+    border: 2px solid lightgrey;
+    margin: 0 15px;
+    text-align: center;
+}
+
+.fake_event_caption {
+    margin: 0;
+}
+
+figcaption.fake_status {
+    padding: 10px;
 }
